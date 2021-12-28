@@ -1,15 +1,15 @@
 **System D Overview:<br>**
 
 **Commands:<br>**
-systemctl status<br>
-systemctl start .service<br>
-systemctl enable .service<br>
-systemctl disable .service<br>
-systemctl stop .service<br>
-systemctl restart .service<br>
+systemctl status - Prints running systemD services, and releated status information<br>
+systemctl start .service - Starts a service<br>
+systemctl stop .service - Stops a service<br>
+systemctl enable .service - Sets a service to start at boot<br>
+systemctl disable .service - Stops a service from starting at boot<br>
+systemctl restart .service - Restarts a service<br>
 
-systemctl is-enabled .service<br>
-systemctl list-unit-files |grep enabled<br>
+systemctl is-enabled .service - Tests if a service is enabled<br>
+systemctl list-unit-files |grep enabled  Lists all unit files that are enabled<br>
 
 **User vs Root space with SystemD commands:<br>**
 https://unix.stackexchange.com/questions/385964/launching-chromium-on-startup-with-systemd/519585<br>
