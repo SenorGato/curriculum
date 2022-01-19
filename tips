@@ -1,0 +1,24 @@
+tcpdump ip proto \\icmp  //Monitor for incoming pings
+
+openssl s_client -connect hostname:6697  //Openssl test for ergo chat
+
+systemctl list-units --type=service //List system D services
+
+command! SS echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')  -- Outputs Vim highlight group of selected element at cursor.
+
+ls | sed -r "$(find -maxdepth 1 -type d | cut -d/ -f2 | sed "1 d; 2~1 { s:.*:s/^\\(&\\)$/[+]\\\\1/;:g}")"
+Just run it.
+
+
+find -name '*(Foo)*.zip' -type f -exec mv -t ./foo/ {} +
+searchs CWD and move pattern match to ./foo/
+
+ls | wc -l - Counts files in dir
+
+To include hidden files (except . and ..) and avoid problems with newline characters, the canonical way is:
+
+find . ! -name . -prune -print | grep -c /
+Or recursively:
+find .//. ! -name . -print | grep -c //
+
+sudo du -sh /var - List size of files in /var
