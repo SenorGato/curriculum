@@ -22,3 +22,5 @@ Or recursively:
 find .//. ! -name . -print | grep -c //
 
 sudo du -sh /var - List size of files in /var
+
+hdparm -r /dev/sdx  - Turns of write protected on /dev/sdx. Useful for USB.
