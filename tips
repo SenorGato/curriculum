@@ -23,4 +23,4 @@ find .//. ! -name . -print | grep -c //
 
 sudo du -sh /var - List size of files in /var
 
-hdparm -r /dev/sdx  - Turns of write protected on /dev/sdx. Useful for USB.
+ for i in *.*; do echo $i; figlet -f $i -c -w 100 -m 22 Hack The Planet; done;
