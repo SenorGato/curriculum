@@ -24,3 +24,7 @@ find .//. ! -name . -print | grep -c //
 sudo du -sh /var - List size of files in /var
 
  for i in *.*; do echo $i; figlet -f $i -c -w 100 -m 22 Hack The Planet; done;
+ 
+ nmap -sn 10.21.1.0/24 - Scans 10.21.1.0 subnet for connected IPs
+ 
+ 
