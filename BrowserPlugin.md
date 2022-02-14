@@ -12,3 +12,5 @@ How/where to output data.
 Async functions and promises.
 Content scripts and background scripts.
 Tabs query.  
+
+Mutation observers, and how to parse the DOM.
