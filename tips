@@ -27,4 +27,6 @@ sudo du -sh /var - List size of files in /var
  
  nmap -sn 10.21.1.0/24 - Scans 10.21.1.0 subnet for connected IPs
  
+ ${BASH_SOURCE[0]}
+ 
  
