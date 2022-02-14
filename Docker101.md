@@ -1,11 +1,10 @@
+Here is the Dockerfile documentation
+https://docs.docker.com/engine/reference/builder/
+
 Docker compose specifications:  
 https://github.com/compose-spec/compose-spec/blob/master/spec.md  
 
 For some reason this is very hard to find.  Here it is.
-
-
-Here is the Dockerfile documentation
-https://docs.docker.com/engine/reference/builder/
 
 Here are the docs for docker build:  
 https://docs.docker.com/engine/reference/commandline/build/#options
