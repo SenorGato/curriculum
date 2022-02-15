@@ -29,4 +29,6 @@ sudo du -sh /var - List size of files in /var
  
  ${BASH_SOURCE[0]}
  
+ nmcli dev wifi list | grep SSID
+ 
  
